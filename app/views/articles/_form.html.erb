@@ -1,0 +1,22 @@
+<div class="d-flex flex-column align-items-center form">
+
+  <%= form_for(@article) do |f| %>
+    <div>
+      <h1> <%= f.label :title %> </h1>
+      <p> <%= f.text_field :title %> </p>
+    </div>
+
+    <div>
+      <h1> <%= f.label :content %> </h1>
+      <p> <%= f.text_field :content %> </p>
+    </div>
+
+      <% if @article.new_record?() %>
+        <%= f.submit 'Create Article' %>
+      <% else %>
+        <%= f.submit 'Update Article' %>
+      <% end %>
+    <% end %>
+</div>
+
+

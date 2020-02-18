@@ -1,0 +1,42 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+li h1 {
+  font-size: 25px;
+  color: rgb(82,130,206);
+}
+
+.navbar {
+  height: 50px;
+  border: 0.5px solid rgb(230, 230, 230);
+  background-color: rgb(245, 245, 245);
+}
+
+.navbar p {
+  margin: 4px;
+}
+
+.articles {
+  margin-top: 40px;
+}
+
+.article {
+  margin-top: 40px;
+}
+
+img {
+  height: 20px;
+}
+
+.form {
+  margin-top: 70px;
+}
+
+.form h1{
+  font-size: 15px;
+}
+
+#content {
+  height: 100px
+}
